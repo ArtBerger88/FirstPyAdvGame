@@ -1,4 +1,4 @@
-print("Hello Adventurer!")                            #Adventure Game
+print("Hello Adventurer!")                            #Arts Adventure Game
 print("Welcome to 'The Lone Road'")                   #Title: The Lone Road
 print("Print choices seen in CAPS")
 print("GOOD LUCK")
