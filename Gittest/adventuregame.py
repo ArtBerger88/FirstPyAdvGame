@@ -16,7 +16,7 @@ if answer == "no":
 elif answer == "yes": 
     print("Can you find the path? Here we go!!!!")
 else:
-    print("You answer doesnt make sence...")
+    print("You answer doesn't make sence...")
     quit()
     
 answer = input("You are walking down a road and come to a 4 way split, do you go STRAIGHT LEFT RIGHT or BACK? ").lower() 
@@ -43,7 +43,7 @@ if answer == "left":                                    #left route
         else:
             exit()
     elif answer == "thru":
-        print("you got stuck in the thicket and eaten by misqitos!!!! YOU LOSE")
+        print("You got stuck in the thicket and eaten by misqitos!!!! YOU LOSE")
     else:
         exit()
 elif answer == "right":                                #right route
@@ -55,12 +55,12 @@ elif answer == "right":                                #right route
         answer = input("You continue until you hear a sound, do you investigate YES or NO? ").lower()
         
         if answer == "yes":
-            print("You investigate, you head around the corner and see a dragon sitting upon a pile of gold, he turns you to ash!!!! YOU LOSE")
+            print("You investigate, you head around the corner and see a DRAGON sitting upon a pile of gold, he turns you to ash!!!! YOU LOSE")
         elif answer == "no":
             answer = input("You ignore the sound and keep going, you see a clearing, head TOWARDS or AWAY from the clearing? ").lower()
                 
             if answer == "away":
-                print("you head away for the clearing, the forest darkens and you lose your way!!!! YOU LOSE")
+                print("You head away for the clearing, the forest darkens and you lose your way!!!! YOU LOSE")
             elif answer == "towards":
                 answer = input("You head thru the clearing and onto a beach, you see a path, follow the PATH or BEACH? ").lower()
                 
@@ -100,7 +100,7 @@ elif answer == "straight":                             #straight route
                     answer = input("You go around the hill safely coming a to river, do you CROSS or FOLLOW the river? ").lower()
 
                     if answer == "cross":
-                        print("You attemp to cross the river but are swept away by current!!!! YOU LOSE")
+                        print("You attempt to cross the river but are swept away by current!!!! YOU LOSE")
                     elif answer == "follow":
                         answer = input("You follow the river it leads to a beach, do you SWIM or WALK the beach? ").lower()
 
@@ -133,12 +133,12 @@ elif answer == "back":                                 #back route
     if answer == "back":
         print("You go back again, your stuck in a loop, not a real loop, just a loopy loop!!!! YOU LOSE")
     elif answer == "no":
-        answer = input("You stopped going back just as you began to not reconize the reverse route you took, theres a road that looks promicing do you go LEFT or RIGHT? ").lower()
+        answer = input("You stopped going back just as you began to not recognize the reverse route you took, theres a road that looks promicing do you go LEFT or RIGHT? ").lower()
 
         if answer == "left":
-            print("You go left after a ways you come to a downed tree blocking your route, you try moving the tree, to no avail. All your energy is spent you sit down for a little bit, Kirby comes around the corner and sucks you up!!!! YOU LOSE")
+            print("You go left you come to a downed tree blocking your route, you try moving the tree, to no avail. All your energy is spent you sit down for a little bit, Kirby comes around the corner and sucks you up!!!! YOU LOSE")
         elif answer== "right":
-            answer = input("You go down the right way you feel quite confident this will lead to somewhere promicing,a land of riches perhaps. Halfway thru your daydream you come to a stream do you SWIM or FOLLOW the stream? ").lower()
+            answer = input("You go down the right way you feel quite confident this will lead to somewhere promicing, a land of riches perhaps. Halfway thru your daydream you come to a stream do you SWIM or FOLLOW the stream? ").lower()
 
             if answer == "swim":
                 print("You go for a dip enjoying the perfect water temp until you get eaten by piranhas!!!! YOU LOSE")
@@ -151,7 +151,7 @@ elif answer == "back":                                 #back route
                     answer = input("You continue to follow the stream for a day, stopping only to catch a fish do you stop to make CAMP or NOT? ").lower()
 
                     if answer == "not":
-                        print("You decide to continue without making camp, you are mighty hungry by the time night falls, and so are the wolves that just picked up your scent. Its not long before you are swarmed by a pack of wolves!!!! YOU LOSE")
+                        print("You decide to continue without making camp, you are mighty hungry by the time night falls, and so are the wolves that just picked up your scent. Its not long before you are swarmed by a PACK of wolves!!!! YOU LOSE")
                     elif answer == "camp":
                         answer = input("You made camp setting up a makeshift shack out of sticks and tree limbs also building a fire and cooking your delicious fish you caught earlier. Eating it and enoying the beutiful clear night. In the morning you wake up with a full belly and plenty of energy ready to tackle the day. You pack up camp do you FOLLOW the stream or NOT? ").lower()
 
