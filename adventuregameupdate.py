@@ -1,4 +1,4 @@
-print("Hello Adventurer!")                            #Adventure Game Jan 2024
+print("Hello Adventurer!")                            #Adventure Game Feb 2024
 print("Welcome to 'The Lone Road'")                   #Title: The Lone Road
 print("Print choices seen in CAPS")
 print("GOOD LUCK")
